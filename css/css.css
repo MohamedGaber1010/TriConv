@@ -1,0 +1,123 @@
+
+/*
+font-family: 'Merienda One', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto' ,'sans-serif';
+	background-color: #e8e8e8;
+}
+
+.process {
+	width: 70%;
+	margin: auto;
+	border: 2px solid white;
+	text-align: center;
+}
+
+
+
+input {
+	width: 80%;
+    height: 40px;
+    border-radius: 5px;
+	font-size: 18px;
+}
+.inlink {
+    background-color: rgb(173 173 173);
+	border: 3px solid #6b6b6b;
+	margin: 10px auto;
+	
+}
+.inlink:focus{
+	background-color: rgb(222 221 221);
+	border: 3px solid #6b6b6b;
+}
+.insubmit:active{
+	background-color: beige;
+}
+.insubmit{
+	width: 19%;
+	background-color: rgb(107 107 107);
+}
+
+.error{
+	color: red;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.show-vid {
+	margin: 10px;
+	width: 100%;
+}
+
+.all-qu{
+	display: inline-block;
+    margin: 10px;
+    background-color: #afafaf;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+	cursor: pointer;
+}
+
+
+
+label{
+	display: inline-block;
+	margin: 10px 20px;
+	
+}
+
+input[type = 'radio']{
+	display: inline;
+	width: auto;
+	height: auto;
+}
+.lehead {
+	display: block;
+	margin: 20px ;
+	font-size: 20px;
+}
+
+.format {
+	display: block;
+	margin: 10px auto;
+	background-color: transparent;
+	width: 200px;
+	
+}
+
+.trimTime{
+	width: 30px;
+    height: 27px;
+    background-color: transparent;
+}
+.trimBtn{
+	background-color: #9c9c9c;
+    display: inline-block;
+    margin: 5px 30px;
+    padding: 7px;
+    border: 2px solid;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
